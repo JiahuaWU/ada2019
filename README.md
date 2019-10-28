@@ -42,5 +42,6 @@ Our second step is to scrape the job advertisements from job seeking websites (e
 - Set up our goals and plans for the next milestone.
 
 # Questions for TA
-Do you have any suggestions for finding proper dataset in Europe especially in Switzerland? \\
+Do you have any suggestions for finding proper dataset in Europe especially in Switzerland?
+
 Are there any suggestions on scraping the job information on websites like glassdoor or linkedIn?
