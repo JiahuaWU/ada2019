@@ -16,7 +16,31 @@ The first dataset we will use is published by the United States Department of La
 
 Our second step is to scrape the job advertisements from job seeking websites (e.g. LinkdIn, Glassdor), where the job description and requirements can be obtained. API service is provided by most of the websites. With these information, we can go further to analyze the change of need for various positions, skills, programming languages of the companies.   
 # A list of internal milestones up until project milestone 2
-Add here a sketch of your planning for the next project milestone.
+
+03.11
+
+- Download the required data
+- Search for scrapable websites online or other sources containing information on job requirement and job descriptions corresponding to the information(company, job title, location, etc.) in the H1B dataset.
+
+10.11
+
+- Data cleaning for newly found data (identification and removal of invalid data)
+- Continue the search for available data sources if not yet finished. 
+- NLP processing for job requirement and job description to find similarities between different jobs and cluster them. We may also pick out some most needed skills across different regions or companies. It is also possible to establish link between salaries and skills and the potential contributions of the skills to the salary obtained.  
+- Analysis of the H1B dataset.
+
+17.11
+
+- Explore possibilities for the data visualization
+- Decide which visualization format is the best.
+- NLP processing if not yet finished.
+- Release of initial notebook.
+
+24.11
+
+- Comment and debug our code
+- Set up our goals and plans for the next milestone.
 
 # Questions for TA
 Do you have any suggestions for finding proper dataset in Europe especially in Switzerland?
+
