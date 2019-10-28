@@ -1,7 +1,7 @@
 # Title
 
 # Abstract
-Job landing is the most concerned topic among university students, expecially the foreigners as they always face the problem of work permit. Based on the fact that the United States has becomed the most popular immigration country for many years, especially for the Computer Science related workers, this project aims at exploring the changes of foreign CS-related labor force characteristics in different states in US over the last decades, and meanwhile revealing the secretes of H1B distribution. 
+Job landing is the most concerned topic among university students, expecially the foreigners as they always face the problem of work permit. Based on the fact that the United States has become the most popular immigration country for many years, especially for the Computer Science related workers, this project aims at exploring the changes of foreign CS-related labor force characteristics in different states in US over the last decades, and meanwhile revealing the secretes of H1B distribution. 
 
 We want to see what kind of people are most likely to get H1B. We will show the different figures for H1B issured among the states, the preferences of companies regarding skills, programming languages, nationalities and the benefit and welfare they can offered. We will identify the most demanding skill as the most freuent keyword in job description so it gives a reference for people who hope to find a job in America.
 # Research questions
