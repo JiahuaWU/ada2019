@@ -1,4 +1,4 @@
-# What should I know to find a job?
+# Fluctuation of internet labour market
 
 # Abstract
 Job landing is the most concerned topic among university students. There are several aspects that interest the job hunters: where are the potential employers and what the employers need. United States has become one of the most popular working places for many years, especially for the computer-science-related workers, because IT technology is really thriving there. This leads many foreign graduates attentive to working there. Based on this fact, this project aims at exploring the changes of foreign CS-related labor force characteristics in US over the last decades, meanwhile investigating the changing need for these positions.
