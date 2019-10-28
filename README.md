@@ -5,7 +5,7 @@ Job landing is the most concerned topic among university students, expecially th
 
 We want to see what kind of people are most likely to get H1B. We will show the different figures for H1B issured among the states, the preferences of companies regarding skills, programming languages, nationalities and the benefit and welfare they can offered. We will identify the most demanding skill as the most frequent keyword in job description so it gives a reference for people who hope to find a job in America.
 # Research questions
-Whats is the most demanding skill? IS there any relevant requirement between different positions?
+Whats is the most demanding skill? Is there any relevant requirement between different positions?
 Whats is the most hot programming language?
 How is the review of companies affecting the employee choosing the position?
 
