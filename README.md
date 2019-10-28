@@ -1,21 +1,22 @@
 # Title
 
 # Abstract
-Job landing is the most concerned topic among university students, expecially the foreigners as they always face the problem of work permit. Based on the fact that the United States has become the most popular immigration country for many years, especially for the Computer Science related workers, this project aims at exploring the changes of foreign CS-related labor force characteristics in US over the last decades, and meanwhile revealing the secretes of H1B distribution. 
+Job landing is the most concerned topic among university students. There are several aspects that interest the job hunters: where are the potential employers and what the employers need. United States has become one of the most popular working places for many years, especially for the computer-science-related workers, because IT technology is really thriving there. This leads many foreign graduates attentive to working there. Based on this fact, this project aims at exploring the changes of foreign CS-related labor force characteristics in US over the last decades, meanwhile investigating the changing need for these positions.
 
-We want to see what kind of people are most likely to get H1B. We will show the different figures for H1B issured among the states, the preferences of companies regarding skills, programming languages, nationalities and the benefit and welfare they can offered. We will identify the most demanding skill as the most frequent keyword in job description so it gives a reference for people who hope to find a job in America.
+We will show the different figures of H1B issued among the states and through the time, the preferences of companies regarding skills, programming languages and the benefit and welfare they can offer. We will identify the most demanding skill which appears most frequently as keyword in job description so that this study can serve as a reference for people who hope to find a job in America.
 # Research questions
-Whats is the most demanding skill? Is there any relevant requirement between different positions?
+1. What is the difference of need for programmers among states and through years? 
 
-Whats is the most hot programming language?
+2. What is the most hot programming language for companies?
 
-How is the review of companies affecting the employee choosing the position?
+3. What is the most demanding skill? What is the relavence of requirements among different positions?
 
 # Dataset
-List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.
-The dataset we used is published by the United States Department of Labor. 
+The first dataset we will use is published by the United States Department of Labor (https://www.foreignlaborcert.doleta.gov/performancedata.cfm). H1B applications from 2014 to 2019 are available on the website and are presented in .csv form. We consider these dataset reasonable for our study because once the employer would like to apply for H1B visa for the worker, this means the position the employer offers is really in need. The company location, job title, salary and many other informations are provided in the datasets. 
+
+Our second step is to scrape the job advertisements from job seeking websites (e.g. LinkdIn, Glassdor).  
 # A list of internal milestones up until project milestone 2
 Add here a sketch of your planning for the next project milestone.
 
 # Questions for TA
-Do you have any suggestions for finding proper dataset in Europe especially in Swiss?
+Do you have any suggestions for finding proper dataset in Europe especially in Switzerland?
