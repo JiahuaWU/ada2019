@@ -1,4 +1,4 @@
-# Fluctuation of internet labour market
+# Insight into US IT labour market
 
 # Abstract
 Job landing is the most concerned topic among university students. There are several aspects that interest the job hunters: where are the potential employers and what the employers need. United States has become one of the most popular working places for many years, especially for the computer-science-related workers, because IT technology is really thriving there. This leads many foreign graduates attentive to working there. Based on this fact, this project aims at exploring the changes of foreign CS-related labor force characteristics in US over the last decades, meanwhile investigating the changing need for these positions.
@@ -42,5 +42,5 @@ Our second step is to scrape the job advertisements from job seeking websites (e
 - Set up our goals and plans for the next milestone.
 
 # Questions for TA
-Do you have any suggestions for finding proper dataset in Europe especially in Switzerland?
+Do you have any suggestions for finding proper dataset in Europe especially in Switzerland? \\
 Are there any suggestions on scraping the job information on websites like glassdoor or linkedIn?
