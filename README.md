@@ -1,4 +1,4 @@
-# Insight into US IT labour market
+# Insight into US IT labor market
 
 # Abstract
 Job landing is the most concerning topic among university students. There are several aspects that interest the job hunters: what are the potential employers, what they need and what they offer. The United States has become one of the most popular working places for many years, especially for the computer-science-related workers, since IT technology is really thriving there. This results in a flow of foreign students pursuiting their degrees and seeking a job there. Based on this fact, this project aims at exploring the changes of foreign CS-related labor force characteristics in US over the last decades, meanwhile investigating the changing need for these positions.
