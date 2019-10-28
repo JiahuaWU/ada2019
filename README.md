@@ -12,9 +12,9 @@ We will show the different figures of H1B issued among the states and through th
 3. What is the most demanding skill? What is the relavence of requirements among different positions?
 
 # Dataset
-The first dataset we will use is published by the United States Department of Labor (https://www.foreignlaborcert.doleta.gov/performancedata.cfm). H1B applications from 2014 to 2019 are available on the website and are presented in .csv form. We consider these dataset reasonable for our study because once the employer would like to apply for H1B visa for the worker, this means the position the employer offers is really in need. The company location, job title, salary and many other informations are provided in the datasets. 
+The first dataset we will use is published by the United States Department of Labor (https://www.foreignlaborcert.doleta.gov/performancedata.cfm). H1B applications from 2014 to 2019 are available on the website and are presented in .csv form. We consider these dataset reasonable for our study because once the employer would like to apply for H1B visa for the worker, this means the position the employer offers is really in need. Company location, job title, salary and many other informations are provided in the datasets. 
 
-Our second step is to scrape the job advertisements from job seeking websites (e.g. LinkdIn, Glassdor).  
+Our second step is to scrape the job advertisements from job seeking websites (e.g. LinkdIn, Glassdor), where the job description and requirements can be obtained. API service is provided by the websites. With these information, we can go further to analyze the change of need for various positions, skills, programming languages of the companies.   
 # A list of internal milestones up until project milestone 2
 Add here a sketch of your planning for the next project milestone.
 
