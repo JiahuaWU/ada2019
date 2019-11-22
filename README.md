@@ -1,9 +1,10 @@
-# Insight into US IT labor market
+# Everyone can be a cook
 
 # Abstract
-Job landing is the most concerning topic among university students. There are several aspects that interest the job hunters: what are the potential employers, what they need and what they offer. The United States has become one of the most popular working places for many years, especially for the computer-science-related workers, since IT technology is really thriving there. This results in a flow of foreign students pursuiting their degrees and seeking a job there. Based on this fact, this project aims at exploring the changes of foreign CS-related labor force characteristics in US over the last decades, meanwhile investigating the changing need for these positions.
+Cooking is an important skill for everyone, especially for us students who do not live with families and have to cook for ourself occasionally. In the past, a good cook need to learn and remember all the ingredients and procedures for the dishes, but now, with the help of Internet, anyone can be a cook as long as they follow the instructions of recipes and practice a bit. 
 
-We will show different figures of H1B issued among the states and through the time, the preferences of companies regarding skills, programming languages and the benefit and welfare they can offer. We will identify the most sought-after skills which appear most frequently as keywords in job description so that this study can serve as a reference for people who hope to find a job in America. If useful data sources were found, we would like to include EU in this study.
+In this project, we want to show the different cooking choices of ingredients, seasoning, etc. among countries and also give suggestions on which dishes to cook to satisfy one's need, based on his nationality and time planned for cooking, ingredients by hand, and so on. So our project contains two main parts: one is general analysis of recipes and the other is recommendation system for recipe. 
+
 # Research questions
 1. What is the difference of need for programmers among states and through years? 
 
