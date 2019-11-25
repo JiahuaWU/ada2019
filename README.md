@@ -8,12 +8,12 @@ In this project, we want to show the different cooking choices of ingredients, s
 # Research questions
 How do eating habits vary in different countries?
 - the most frequently used seasoning
-- the most common cooking methods(boil, stir, fry, etc)
+- the most common cooking methods(boil, stew, fry, etc)
 - the most frequently used ingredients (except seasoning) in general and specifically for main dish, dessert, beverage, etc.
 
 How are the different eating habits related to health?
-- the life span( developed/developing)
-- some common food-related disease: cancer, obesity
+- Analyze correlation between some health indices like the life span, overweight rate, high blood pressure, etc with common seasonings and cooking methods.
+- find relationshp between some common food-related disease and eating habits: cancer, obesity. We will get the death rate of some food-related diseases in different countries and then compare them with their different eating habits, for example, cooking methods and main ingredients or seasoning in foods.
 
 The recommendation systems for food
 - according to historical beloved food and ratings
