@@ -15,9 +15,12 @@ How are the different eating habits related to health?
 - Analyze correlation between some health indices like the life span, overweight rate, high blood pressure, etc with common seasonings and cooking methods.
 - find relationshp between some common food-related disease and eating habits: cancer, obesity. We will get the death rate of some food-related diseases in different countries and then compare them with their different eating habits, for example, cooking methods and main ingredients or seasoning in foods.
 
-The recommendation systems for food
-- according to historical beloved food and ratings
-- according to the ingredients we have
+Machine learning system exploration based on available data
+1. The recommendation systems for food
+  - according to historical beloved food and ratings
+  - according to the ingredients we have
+2. The regression model for nutrient prediction
+3. The classification model for flavour prediction
 
 # Dataset
 The first two dataset we used are collected from kaggle (https://www.kaggle.com/shuyangli94/food-com-recipes-and-user-interactions). `RAW_recipes.csv` contains 230185 different recipes and `RAW_interactions.csv` contains 1125283 comments from users regarding the recipes. In `RAW_recipes.csv`, the column 'tags' contains information about country and dish type of the recipe, which is used for further analysis. Also, the ingredients need and cooking steps of eac recipe is provided. In `RAW_interactions.csv`, the reviews and the corresponding recipe id enable NLP analysis of people's feedback towards recipes.
@@ -38,9 +41,9 @@ The first two dataset we used are collected from kaggle (https://www.kaggle.com/
 
 10.12
 
-- build and test the correlationship between food and disease occurance on the level of countries(regions)
+- build and test the correlation between food and disease occurance on the level of countries(regions)
 - train classification model to predict flavors of recipes based on ingredients inputs.
-- train regression model to predict nutritions of recipes based on ingredients and cooking method.
+- train regression model to predict nutritions of recipes based on ingredients and cooking methods.
 - NLP processing for recipe instructions and ingredients to find similarities between different recipes and cluster them. It is also possible to establish recommendation system based on recipe similiarity. 
 - implement recommendation system based on matrix factorization.
 
