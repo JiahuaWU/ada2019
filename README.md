@@ -1,9 +1,9 @@
-# Everyone can be a cook
+# Secrets Behind Recipes
 
 # Abstract
-Cooking is an important skill for everyone, especially for us students who do not live with families and have to cook for ourself occasionally. In the past, a good cook need to learn and remember all the ingredients and procedures for the dishes, but now, with the help of Internet, anyone can be a cook as long as they follow the instructions of recipes and practice a bit. 
+Cooking is an important skill for everyone, no matter where they live. After evolving for centuries, what people eat everyday has grown into systems. Every country has their own style of eating and the styles diverge from region to region. Through the recipes, we can know what is frequently eaten by the people of one country and how they usually cook. We can even go further, find the relationships between what people eat and how their health conditions are, and dig out all the secrets behind the recipes.
 
-In this project, we want to show the different cooking choices of ingredients, seasoning, etc. among countries and also give suggestions on which dishes to cook to satisfy one's need, based on his nationality and time planned for cooking, ingredients by hand, and so on. So our project contains two main parts: one is general analysis of recipes and the other is recommendation system for recipe. 
+In this project, we want to show the different cooking choices of ingredients, seasoning, etc. among countries. Then we will try to link the recipe features with people's health condition to find out if there is something in eating habits that influences people's health. Besides, using the instructions of cooking steps of each recipe, we will map the recipes to vector space so that we can measure the difference of recipes among countries. To go even further, we want to train a model to predict the flavors of a dish, given its recipe, so that we know the flavor preference of people in different countries. In the end, after all these analysis of people's preference, we hope to make a recommendation system so that we can recommend dishes to people if we know their nationality.
 
 # Research questions
 1. What is the difference of need for programmers among states and through years? 
@@ -41,8 +41,3 @@ Our second step is to scrape the job advertisements from job seeking websites (e
 
 - Comment and debug our code
 - Set up our goals and plans for the next milestone.
-
-# Questions for TA
-Do you have any suggestions for finding proper dataset in Europe especially in Switzerland?
-
-Are there any suggestions on scraping the job information on websites like glassdoor or linkedIn?
