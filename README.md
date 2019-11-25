@@ -7,15 +7,9 @@ In this project, we want to show the different cooking choices of ingredients, s
 
 # Research questions
 How do eating habits vary in different countries?
-- the most used seasoning
-- the most common main dish
+- the most frequently used seasoning
 - the most common cooking methods(boil, stir, fry, etc)
-
-What makes foods popular worldwide?
-- Cooking complexity: cooking time + number of ingredients types
-- Health index: cuisine nutrition
-- Ingredient selection: main dish, seasoning
-- Cooking method
+- the most frequently used ingredients (except seasoning) in general and specifically for main dish, dessert, beverage, etc.
 
 How are the different eating habits related to health?
 - the life span( developed/developing)
@@ -26,9 +20,8 @@ The recommendation systems for food
 - according to the ingredients we have
 
 # Dataset
-The first dataset we will use is published by the United States Department of Labor (https://www.foreignlaborcert.doleta.gov/performancedata.cfm). H1B applications from 2014 to 2019 are available on the website and are available in .csv format. We consider these dataset suitable for our study as the employers only apply a H1B visa for the candidates when they are hired. Company location, job title, salary and other information are provided in the datasets. 
+The first two dataset we used are collected from kaggle (https://www.kaggle.com/shuyangli94/food-com-recipes-and-user-interactions). `RAW_recipes.csv` contains 230185 different recipes and `RAW_interactions.csv` contains 1125283 comments from users regarding the recipes. In `RAW_recipes.csv`, the column 'tags' contains information about country and dish type of the recipe, which is used for further analysis. Also, the ingredients need and cooking steps of eac recipe is provided. In `RAW_interactions.csv`, the reviews and the corresponding recipe id enable NLP analysis of people's feedback towards recipes.
 
-Our second step is to scrape the job advertisements from job seeking websites (e.g. LinkdIn, Glassdor), where the job description and requirements can be obtained. API service is provided by most of the websites. With these information, we can go further to analyze the change of need for various positions, skills, programming languages of the companies.   
 # A list of internal milestones up until project milestone 3
 
 17.11
