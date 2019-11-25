@@ -26,7 +26,6 @@ The first two dataset we used are collected from kaggle (https://www.kaggle.com/
 
 17.11
 
-- Change Topic to "Everyone can be a cook"
 - Download the required data
 - Search for additional information on quantities of each ingredient usage corresponding to the recipes, scrape data to augment dataset.
 
@@ -34,11 +33,10 @@ The first two dataset we used are collected from kaggle (https://www.kaggle.com/
 
 - Data cleaning for newly found data (identification and removal of invalid data)
 - Extract countries(regions) informations from raw dataset and classify recipes according to continents. It helps analysis distributions and patterns on different granularity level.
-- Extract flavors from user description, using it as target label of further multi-class classification training. 
+- Extract flavors from user description, using it as target label for further multi-class classification training. 
 - Classify recipes by meal types, explore most common used ingredients and cooking method of each country
 
 10.12
-
 
 - build and test the correlationship between food and disease occurance on the level of countries(regions)
 - train classification model to predict flavors of recipes based on ingredients inputs.
