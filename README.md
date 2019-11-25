@@ -3,7 +3,7 @@
 # Abstract
 Cooking is an important skill for everyone, no matter where they live. After evolving for centuries, what people eat everyday has grown into systems. Every country has their own style of eating and the styles diverge from region to region. Through the recipes, we can know what is frequently eaten by the people of one country and how they usually cook. We can even go further, find the relationships between what people eat and how their health conditions are, and dig out all the secrets behind the recipes.
 
-In this project, we want to show the different cooking choices of ingredients, seasoning, etc. among countries. Then we will try to link the recipe features with people's health condition to find out if there is something in eating habits that influences people's health. Besides, using the instructions of cooking steps of each recipe, we will map the recipes to vector space so that we can measure the difference of recipes among countries. To go even further, we want to train a model to predict the flavors of a dish, given its recipe, so that we know the flavor preference of people in different countries. In the end, after all these analysis of people's preference, we hope to make a recommendation system so that we can recommend dishes to people if we know their nationality.
+In this project, we want to show the different cooking choices of ingredients, seasoning, etc. among countries. Then we will try to link the recipe features with people's health condition to find out if there is something in eating habits that influences people's health. Besides, using the instructions of cooking steps of each recipe, we will map the recipes to vector space so that we can measure the difference of recipes among countries. To go even further, we want to train a model to predict the flavors of a dish, given its recipe, so that we know the flavor preference of people in different countries. In the end, after all these analysis of people's preference, we hope to make a recommendation system so that we can recommend dishes to people if we know their previous beloved food or the ingredients they have.
 
 # Research questions
 How do eating habits vary in different countries?
@@ -17,13 +17,15 @@ How are the different eating habits related to health?
 
 Machine learning system exploration based on available data
 1. The recommendation systems for food
-  - according to historical beloved food and ratings
-  - according to the ingredients we have
+    - according to historical beloved food and ratings
+    - according to the ingredients we have
 2. The regression model for nutrient prediction
 3. The classification model for flavour prediction
 
 # Dataset
 The first two dataset we used are collected from kaggle (https://www.kaggle.com/shuyangli94/food-com-recipes-and-user-interactions). `RAW_recipes.csv` contains 230185 different recipes and `RAW_interactions.csv` contains 1125283 comments from users regarding the recipes. In `RAW_recipes.csv`, the column 'tags' contains information about country and dish type of the recipe, which is used for further analysis. Also, the ingredients need and cooking steps of eac recipe is provided. In `RAW_interactions.csv`, the reviews and the corresponding recipe id enable NLP analysis of people's feedback towards recipes.
+
+The original recipe dataset does not contain the dose information of each ingredient. To train the regression model for prediction of nutrients given the ingredients and cooking methods, we scrape from food.com the dosage of the ingredients as a completion of the dataset.
 
 # A list of internal milestones up until project milestone 3
 
