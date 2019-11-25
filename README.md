@@ -57,7 +57,3 @@ The first two dataset we used are collected from kaggle (https://www.kaggle.com/
 
 - Comment and refactor our code
 - Release of final notebook and datastory
-
-# Questions for TA
-Do you have any suggestions for recommendation system? 
-Is it consistent with the rest of our project?  
