@@ -110,7 +110,7 @@ def extract_country(recipe_tag):
            'australian': 'Australia'}
 
     dic_cc = {'Mexico': 'North America',
-              'America': 'North America',
+              'United States of America': 'North America',
               'Canada': 'North America',
               'Hawaii': 'North America',
               'Germany': 'Europe',
