@@ -3,6 +3,8 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+data/RAW_interactions.csv
+data/RAW_recipes.csv
 
 # Icon must end with two \r
 Icon
