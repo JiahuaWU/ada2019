@@ -36,7 +36,7 @@ def extract_country(recipe_tag):
            'micro-melanesia': 'Melanesia',
            'spanish': 'Spain',
            'irish': 'Ireland',
-           'scottish': 'UK',
+           'scottish': 'United Kingdom',
            'south-african': 'South Africa',
            'new-zealand': 'New Zealand',
            'finnish': 'Finland',
@@ -110,7 +110,7 @@ def extract_country(recipe_tag):
            'australian': 'Australia'}
 
     dic_cc = {'Mexico': 'North America',
-              'America': 'North America',
+              'United States of America': 'North America',
               'Canada': 'North America',
               'Hawaii': 'North America',
               'Germany': 'Europe',
@@ -155,7 +155,7 @@ def extract_country(recipe_tag):
               'Polynesia': 'Oceania',
               'Iraq': 'Asia',
               'Georgia': 'Europe',
-              'Korea': 'Asia',
+              'South Korea': 'Asia',
               'France': 'Europe',
               'England': 'Europe',
               'Austrilia': 'Oceania',
