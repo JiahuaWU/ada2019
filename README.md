@@ -8,13 +8,13 @@ In this project, we want to show the different cooking choices of ingredients, s
 
 # Research questions
 How do eating habits vary in different countries?
-- the most frequently used seasoning
-- the most common cooking methods(boil, stew, fry, etc)
-- the most frequently used ingredients (except seasoning) in general 
+We extract seasoning, ingredients and the cooking method from steps by using NLP. Then we compare the frequency of used seasoning, cooking methods and ingredients in different countries.
 
-How are the different eating habits related to health?
-- Analyze correlation between some health indices like the life span, overweight rate, high blood pressure, etc with common seasonings and cooking methods.
-- find relationshp between some common food-related disease and eating habits: cancer, obesity. We will get the death rate of some food-related diseases in different countries and then compare them with their different eating habits, for example, cooking methods and main ingredients or seasoning in foods.
+How similar the way of cooking in different countries?
+We analyze the cooking steps by using NLP and then do dimention reduction to observe in 3D to see how similar the cooking process in different countres.
+
+How are the eating habits related to health?
+We aim to analyze correlation between some health indices like the life span, overweight rate, high blood pressure, etc with common seasonings and nutrition content. To make our result more convincing, we propose our naive model to control the variables in different countries by only taking the income into considerate. We select the suitable health indices which pass our sensitivity analysis test with $gamma$ = 2.
 
 # Dataset
 The two dataset about recipes we used are collected from Kaggle (https://www.kaggle.com/shuyangli94/food-com-recipes-and-user-interactions). One of them contains 230185 different recipes scraped from Food.com (https://www.food.com/" and includes information about the cooking steps, ingredients, time needed, tags, etc. Through the tags of the recipes, we could figure out where the dish originates from. By matching the countries with recipes, we get 96286 recipes from 51 different countries.
@@ -23,38 +23,6 @@ The other dataset is about ratings and comments on the recipes by the users of F
 
 To learn the relationship between recipes and health, we use datasets about noncommunicable diseases (https://www.who.int/data/gho/data/themes/noncommunicable-diseases/GHO/noncommunicable-diseases") and body mass index (BMI) (https://www.who.int/data/gho/data/themes/theme-details/GHO/body-mass-index-(bmi)) from WHO in 2016. The GDP dataset from The World Bank (https://data.worldbank.org/indicator/NY.GNP.PCAP.CD) is also used to balance the influence of economy on citizens' health conditions.
 
-# A list of internal milestones up until project milestone 3
-
-17.11
-
-- Download the required data
-- Search for additional information on quantities of each ingredient usage corresponding to the recipes, scrape data to augment dataset.
-
-23.11
-
-- Data cleaning for newly found data (identification and removal of invalid data)
-- Extract countries(regions) informations from raw dataset and classify recipes according to continents. It helps analysis distributions and patterns on different granularity level.
-- Extract flavors from user description, using it as target label for further multi-class classification training. 
-- Classify recipes by meal types, explore most common used ingredients and cooking method of each country
-
-10.12
-
-- build and test the correlation between food and disease occurance on the level of countries(regions)
-- train classification model to predict flavors of recipes based on ingredients inputs.
-- train regression model to predict nutritions of recipes based on ingredients and cooking methods.
-- NLP processing for recipe instructions and ingredients to find similarities between different recipes and cluster them. It is also possible to establish recommendation system based on recipe similiarity. 
-- implement recommendation system based on matrix factorization.
-
-18.12
-
-- Compare the effectiveness of trained model 
-- Explore possibilities for the data visualization
-- Summarize results and figures, find the best way to present them in datastory
-
-23.12
-
-- Comment and refactor our code
-- Release of final notebook and datastory
 
 # Contributions
 
