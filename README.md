@@ -13,17 +13,20 @@ In this project, we want to show the different cooking choices of ingredients, s
 
   --> Notebook: 1. Data Cleaning and Extraction
   
+  
 2) How similar the way of cooking in different countries?
   
   We analyze the cooking steps by using NLP and then do dimention reduction to observe in 3D to see how similar the cooking process in different countres.
   
   --> Notebook: 2. Similarity
 
+
 3) How are the eating habits related to health?
   
   We aim to analyze correlation between some health indices like the life span, overweight rate, high blood pressure, etc with common seasonings and nutrition content. To make our result more convincing, we propose our naive model to control the variables in different countries by only taking the income into considerate. We select the suitable health indices which pass our sensitivity analysis test with gamma = 2.
 
   --> Notebook: 3. Incoporating WHO dataset 4. Relationship between eating habits and health
+  
   
 # Dataset
 The two dataset about recipes we used are collected from Kaggle (https://www.kaggle.com/shuyangli94/food-com-recipes-and-user-interactions). One of them contains 230185 different recipes scraped from Food.com (https://www.food.com/" and includes information about the cooking steps, ingredients, time needed, tags, etc. Through the tags of the recipes, we could figure out where the dish originates from. By matching the countries with recipes, we get 96286 recipes from 51 different countries.
