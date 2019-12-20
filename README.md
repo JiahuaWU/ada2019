@@ -7,15 +7,15 @@ Cooking is an important skill for everyone, no matter where they live. After evo
 In this project, we want to show the different cooking choices of ingredients, seasoning, etc. among countries. Then we will try to link the recipe features with people's health condition to find out if there is something in eating habits that influences people's health. Besides, using the instructions of cooking steps of each recipe, we will map the recipes to vector space so that we can measure the difference of recipes among countries. To go even further, we want to train a model to predict the flavors of a dish, given its recipe, so that we know the flavor preference of people in different countries. In the end, after all these analysis of people's preference, we hope to make a recommendation system so that we can recommend dishes to people if we know their previous beloved food or the ingredients they have.
 
 # Research questions
-a) How do eating habits vary in different countries?
+1) How do eating habits vary in different countries?
 
 We extract seasoning, ingredients and the cooking method from steps by using NLP. Then we compare the frequency of used seasoning, cooking methods and ingredients in different countries.
 
-b) How similar the way of cooking in different countries?
+2) How similar the way of cooking in different countries?
 
 We analyze the cooking steps by using NLP and then do dimention reduction to observe in 3D to see how similar the cooking process in different countres.
 
-c) How are the eating habits related to health?
+3) How are the eating habits related to health?
 
 We aim to analyze correlation between some health indices like the life span, overweight rate, high blood pressure, etc with common seasonings and nutrition content. To make our result more convincing, we propose our naive model to control the variables in different countries by only taking the income into considerate. We select the suitable health indices which pass our sensitivity analysis test with $gamma$ = 2.
 
