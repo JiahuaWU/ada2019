@@ -23,7 +23,7 @@ In this project, we want to show the different cooking choices of ingredients, s
 
 3) How are the eating habits related to health?
 
-  --> Notebook: 3. Relationship between eating habits and health
+  --> Notebook: 3. Incoporating WHO dataset 4. Relationship between eating habits and health
   
   We aim to analyze correlation between some health indices like the life span, overweight rate, high blood pressure, etc with common seasonings and nutrition content. To make our result more convincing, we propose our naive model to control the variables in different countries by only taking the income into considerate. We select the suitable health indices which pass our sensitivity analysis test with gamma = 2.
 
