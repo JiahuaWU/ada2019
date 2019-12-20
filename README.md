@@ -1,4 +1,5 @@
 # Secrets Behind Recipes
+data story link: http://ty-dong.github.io
 
 # Abstract
 Cooking is an important skill for everyone, no matter where they live. After evolving for centuries, what people eat everyday has grown into systems. Every country has their own style of eating and the styles diverge from region to region. Through the recipes, we can know what is frequently eaten by the people of one country and how they usually cook. We can even go further, find the relationships between what people eat and how their health conditions are, and dig out all the secrets behind the recipes.
@@ -9,23 +10,18 @@ In this project, we want to show the different cooking choices of ingredients, s
 How do eating habits vary in different countries?
 - the most frequently used seasoning
 - the most common cooking methods(boil, stew, fry, etc)
-- the most frequently used ingredients (except seasoning) in general and specifically for main dish, dessert, beverage, etc.
+- the most frequently used ingredients (except seasoning) in general 
 
 How are the different eating habits related to health?
 - Analyze correlation between some health indices like the life span, overweight rate, high blood pressure, etc with common seasonings and cooking methods.
 - find relationshp between some common food-related disease and eating habits: cancer, obesity. We will get the death rate of some food-related diseases in different countries and then compare them with their different eating habits, for example, cooking methods and main ingredients or seasoning in foods.
 
-Machine learning system exploration based on available data
-1. The recommendation systems for food
-    - according to historical beloved food and ratings
-    - according to the ingredients we have
-2. The regression model for nutrient prediction
-3. The classification model for flavour prediction
-
 # Dataset
-The first two dataset we used are collected from kaggle (https://www.kaggle.com/shuyangli94/food-com-recipes-and-user-interactions). `RAW_recipes.csv` contains 230185 different recipes and `RAW_interactions.csv` contains 1125283 comments from users regarding the recipes. In `RAW_recipes.csv`, the column 'tags' contains information about country and dish type of the recipe, which is used for further analysis. Also, the ingredients need and cooking steps of eac recipe is provided. In `RAW_interactions.csv`, the reviews and the corresponding recipe id enable NLP analysis of people's feedback towards recipes.
+The two dataset about recipes we used are collected from Kaggle (https://www.kaggle.com/shuyangli94/food-com-recipes-and-user-interactions). One of them contains 230185 different recipes scraped from Food.com (https://www.food.com/" and includes information about the cooking steps, ingredients, time needed, tags, etc. Through the tags of the recipes, we could figure out where the dish originates from. By matching the countries with recipes, we get 96286 recipes from 51 different countries.
 
-The original recipe dataset does not contain the dose information of each ingredient. To train the regression model for prediction of nutrients given the ingredients and cooking methods, we scrape from food.com the dosage of the ingredients as a completion of the dataset.
+The other dataset is about ratings and comments on the recipes by the users of Food.com. The reviews and the corresponding recipe id enable NLP analysis of people's feedback towards recipes. 
+
+To learn the relationship between recipes and health, we use datasets about noncommunicable diseases (https://www.who.int/data/gho/data/themes/noncommunicable-diseases/GHO/noncommunicable-diseases") and body mass index (BMI) (https://www.who.int/data/gho/data/themes/theme-details/GHO/body-mass-index-(bmi)) from WHO in 2016. The GDP dataset from The World Bank (https://data.worldbank.org/indicator/NY.GNP.PCAP.CD) is also used to balance the influence of economy on citizens' health conditions.
 
 # A list of internal milestones up until project milestone 3
 
@@ -59,3 +55,13 @@ The original recipe dataset does not contain the dose information of each ingred
 
 - Comment and refactor our code
 - Release of final notebook and datastory
+
+# Contributions
+
+Tianyang Dong: data cleaning, website design, data visualization.
+
+Wei Jiang: health and seasoning relationship analysis, data visualization.
+
+Huajian Qiu: similarity analsysis using PCA and t-SNE, data visualization.
+
+Jiahua Wu: deep data cleaning, nutrition choropleth map, data visualization.
